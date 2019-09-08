@@ -1,6 +1,6 @@
+import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.util.StringUtils;
 
 public class HomeWork1 {
 
@@ -12,8 +12,8 @@ public class HomeWork1 {
         return v * 100 / s;
     }
 
-    public Integer charCount(String ch, String word) {
-        return StringUtils.countMatches(word, ch);
+//    public Integer charCount(String ch, String word) {
+//       return StringUtils.countMatches(word, ch);
 //    }
 
     @Test
