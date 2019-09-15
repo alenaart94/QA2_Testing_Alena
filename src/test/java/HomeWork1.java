@@ -12,9 +12,9 @@ public class HomeWork1 {
         return v * 100 / s;
     }
 
-//    public Integer charCount(String ch, String word) {
-//       return StringUtils.countMatches(word, ch);
-//    }
+    public Integer charCount(String ch, String word) {
+       return StringUtils.countMatches(word, ch);
+    }
 
     @Test
     public void showPercentage() {
@@ -32,6 +32,15 @@ public class HomeWork1 {
         fuelConsumptionResult = fuelConsumption(64.0, 1000.0);
 
         Assertions.assertEquals(6.4, fuelConsumptionResult, "Fuel consumption value is incorrect");
+    }
+
+    @Test
+    public void showCharCount() {
+        Integer charCountResult;
+
+        charCountResult = charCount("a", "caramelle");
+
+        Assertions.assertEquals(2, charCountResult, "char count is incorrect");
     }
 }
 
