@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e7b0f38-d890-408c-b8ca-33dfcbd27452" name="Default Changelist" comment="" />
+    <list default="true" id="4e7b0f38-d890-408c-b8ca-33dfcbd27452" name="Default Changelist" comment="No error, 2nd message">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BaseFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/OurFirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HomeWork1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1PHF4GVUHwK7euA8Ac9R6b5Q01G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,31 +63,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomeWork1">
-    <configuration name="HomeWork1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HomeWork2.CheckSubCategoryTitle">
+    <configuration name="DelfiArticleTest.titleAndCommentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork1.showPercentage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork1" />
-      <option name="METHOD_NAME" value="showPercentage" />
+      <option name="MAIN_CLASS_NAME" value="DelfiArticleTest" />
+      <option name="METHOD_NAME" value="titleAndCommentsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OurFirstTest.showSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWork2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork2.CheckSubCategoryTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork2" />
+      <option name="METHOD_NAME" value="CheckSubCategoryTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OurFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OurFirstTest" />
-      <option name="METHOD_NAME" value="showSum" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageObjectTest.poTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageObjectTest" />
+      <option name="METHOD_NAME" value="poTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HomeWork1" />
-        <item itemvalue="JUnit.HomeWork1.showPercentage" />
-        <item itemvalue="JUnit.OurFirstTest.showSum" />
+        <item itemvalue="JUnit.HomeWork2.CheckSubCategoryTitle" />
+        <item itemvalue="JUnit.HomeWork2" />
+        <item itemvalue="JUnit.PageObjectTest.poTest" />
+        <item itemvalue="JUnit.DelfiArticleTest.titleAndCommentsTest" />
+        <item itemvalue="JUnit.OurFirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +133,83 @@
       <option name="presentableId" value="Default" />
       <updated>1565522921860</updated>
     </task>
+    <task id="LOCAL-00001" summary="No error, 2nd message">
+      <created>1567936972800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567936972800</updated>
+    </task>
+    <task id="LOCAL-00002" summary="No error, 2nd message">
+      <created>1568554258823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568554258823</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2nd version of homework - added char count">
+      <created>1568555047613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568555047613</updated>
+    </task>
+    <task id="LOCAL-00004" summary="No error, 2nd message">
+      <created>1568555366684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568555366684</updated>
+    </task>
+    <task id="LOCAL-00005" summary="all project classes added">
+      <created>1572172961715</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572172961715</updated>
+    </task>
+    <task id="LOCAL-00006" summary="all project">
+      <created>1572173097599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572173097599</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd version of homework - added char count" />
+    <MESSAGE value="No error, 2nd message" />
+    <MESSAGE value="all project classes added" />
+    <MESSAGE value="all project" />
+    <option name="LAST_COMMIT_MESSAGE" value="all project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HomeWork2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/QA2Testing_Alena$DelfiArticleTest.ic" NAME="DelfiArticleTest Coverage Results" MODIFIED="1569782711458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
