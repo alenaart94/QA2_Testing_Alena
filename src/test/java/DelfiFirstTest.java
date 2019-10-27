@@ -12,3 +12,4 @@ public class DelfiFirstTest {
         driver.get("http://delfi.lv");
     }
 }
+
