@@ -1,5 +1,6 @@
 import pages.BaseFunc;
 import org.junit.jupiter.api.Test;
+import pages.HomePage;
 
 public class PageObjectTest {
 
@@ -8,5 +9,7 @@ public class PageObjectTest {
     @Test
     public void poTest() {
         baseFunc.goToUrl("http://rus.delfi.lv");
+
+        HomePage homePage = new HomePage(baseFunc); //kopija objekta HomePage. Vsja funkcionaljnostj stranici v konkretnom okne brauzera
     }
 }

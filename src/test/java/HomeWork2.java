@@ -10,7 +10,7 @@ public class HomeWork2 {
     //Locators
     private final By WOMAN_TITLE = By.xpath(".//a[@class = 'sf-with-ul']");
     private final By MAIN_TITLE = By.xpath(".//a[@class = 'subcategory-name']");
-    private final By LEFT_TITLE = By.xpath(".//ul[@class = 'tree dynamized']");
+    private final By LEFT_TITLE = By.xpath(".//ul[@class = 'tree dynamized']/li");
 
     @Test
     public void CheckSubCategoryTitle() {
