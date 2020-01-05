@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e7b0f38-d890-408c-b8ca-33dfcbd27452" name="Default Changelist" comment="project - added 6 files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Clouds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Overall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Sys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Wind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/requesters/WeatherRequester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/WeatherStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/weather.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4e7b0f38-d890-408c-b8ca-33dfcbd27452" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaseFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BaseFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomeWork2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomeWork2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BaseFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/WeatherStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/WeatherStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/weather.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/weather.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572173343569</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first version of backend homework.">
+      <created>1578156106363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578156106363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +236,8 @@
     <MESSAGE value="all project" />
     <MESSAGE value="project" />
     <MESSAGE value="project - added 6 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="project - added 6 files" />
+    <MESSAGE value="first version of backend homework." />
+    <option name="LAST_COMMIT_MESSAGE" value="first version of backend homework." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

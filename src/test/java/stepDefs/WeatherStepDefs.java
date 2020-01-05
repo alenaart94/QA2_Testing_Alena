@@ -40,30 +40,30 @@ public class WeatherStepDefs {
         Assertions.assertEquals(lat, response.getCoord().getLat(), "Wrong lat");
     }
 
-//    @Then("weather id is (.*)")
-//    public void check_weather_id(Integer id) {
-//        Assertions.assertEquals(id, response.getWeather().getId(), "Wrong weather ID!");
-//    }
+    @Then("weather id is (.*)")
+    public void check_weather_id(Integer id) {
+        Assertions.assertEquals(id, response.getWeather().get(0).getId(), "Wrong weather ID!");
+    }
 
-//    @Then("weather main is (.*)")
-//    public void check_weather_main(String main) {
-//        Assertions.assertEquals(main, response.getWeather().getMain(), "Wrong weather main");
-//    }
-//
-//    @Then("weather description is (.*)")
-//    public void check_weather_description(String description) {
-//        Assertions.assertEquals(description, response.getWeather().getDescription(), "Wrong Weather description");
-//    }
-//
-//    @Then("weather icon is (.*)")
-//    public void check_weather_icon(String icon) {
-//        Assertions.assertEquals(icon, response.getWeather().getIcon(), "Wrong Weather Icon");
-//    }
+    @Then("weather main is (.*)")
+    public void check_weather_main(String main) {
+        Assertions.assertEquals(main, response.getWeather().get(0).getMain(), "Wrong weather main");
+    }
 
-//      @Then("base is (.*)")
-//      public void check_base(String base) {
-//        //Assertions.assertEquals(base, response.get);
-//      }
+    @Then("weather description is (.*)")
+    public void check_weather_description(String description) {
+        Assertions.assertEquals(description, response.getWeather().get(0).getDescription(), "Wrong Weather description");
+    }
+
+    @Then("weather icon is (.*)")
+    public void check_weather_icon(String icon) {
+        Assertions.assertEquals(icon, response.getWeather().get(0).getIcon(), "Wrong Weather Icon");
+    }
+
+    @Then("base is (.*)")
+    public void check_base(String base) {
+        Assertions.assertEquals(base, response.getBase(), "Wrong base");
+      }
     @Then("main temp is (.*)")
     public void check_main_temp(Double temp) {
         Assertions.assertEquals(temp, response.getMain().getTemp(), "Wrong main temp");
@@ -89,10 +89,10 @@ public class WeatherStepDefs {
         Assertions.assertEquals(temp_max, response.getMain().getTemp_max(), "Wrong max temperature");
     }
 
-//    @Then("visibility is (.*)")
-//    public void check_visibility(Integer visibility) {
-//
-//    }
+    @Then("visibility is (.*)")
+    public void check_visibility(Integer visibility) {
+        Assertions.assertEquals(visibility, response.getVisibility(), "Wrong visibility");
+    }
     @Then("wind speed is (.*)")
     public void check_wind_speed(Double speed) {
         Assertions.assertEquals(speed, response.getWind().getSpeed(), "Wind speed is wrong");
@@ -108,10 +108,10 @@ public class WeatherStepDefs {
         Assertions.assertEquals(all, response.getClouds().getAll(), "Wrong cloud value");
     }
 
-//    @Then("dt is (.*)")
-////    public void check_dt (Integer dt) {
-////
-////    }
+    @Then("dt is (.*)")
+    public void check_dt (Integer dt) {
+        Assertions.assertEquals(dt, response.getDt(), "Wrong dt");
+    }
 
     @Then("sys type is (.*)")
     public void check_sys_type (Integer type) {
@@ -143,18 +143,18 @@ public class WeatherStepDefs {
         Assertions.assertEquals(sunset, response.getSys().getSunset(), "Wrong sunset");
     }
 
-//    @Then("id is (.*)")
-//    public void check_id (Integer id) {
-//        Assertions.assertEquals(id, response.getOverall().getId(), "Wrong ID");
-//    }
-//
-//    @Then("name is (.*)")
-//    public void check_name (Integer name) {
-//        Assertions.assertEquals(name, response.getOverall().getId(), "Wrong name");//change
-//    }
-//
-//    @Then("cod is (.*)")
-//    public void check_cod (Integer cod) {
-//        Assertions.assertEquals(cod, response.getOverall().getId(), "Wrong cod");//change
-//    }
+    @Then("id is (.*)")
+    public void check_id (Integer id) {
+        Assertions.assertEquals(id, response.getId(), "Wrong ID");
+    }
+
+    @Then("name is (.*)")
+    public void check_name (String name) {
+        Assertions.assertEquals(name, response.getName(), "Wrong name");
+    }
+
+    @Then("cod is (.*)")
+    public void check_cod (Integer cod) {
+        Assertions.assertEquals(cod, response.getCod(), "Wrong cod");
+    }
 }

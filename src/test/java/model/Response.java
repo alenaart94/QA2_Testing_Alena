@@ -2,24 +2,72 @@ package model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import java.util.List;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Response {
 
     private Coord coord; //objekt response soderzhit v sebe objekt coord
-    //private Weather weather;
+    private List <Weather> weather;
+
     private Main main;
     private Wind wind;
     private Clouds clouds;
     private Sys sys;
-    //private Overall overall;
+    private String base;
+    private Integer visibility;
+    private Integer dt;
+    private Integer id;
+    private String name;
+    private Integer cod;
 
-//    public Overall getOverall() {
-//        return overall;
-//    }
-//
-//    public void setOverall(Overall overall) {
-//        this.overall = overall;
-//    }
+    public String getBase() {
+        return base;
+    }
+
+    public void setBase(String base) {
+        this.base = base;
+    }
+
+    public Integer getVisibility() {
+        return visibility;
+    }
+
+    public void setVisibility(Integer visibility) {
+        this.visibility = visibility;
+    }
+
+    public Integer getDt() {
+        return dt;
+    }
+
+    public void setDt(Integer dt) {
+        this.dt = dt;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getCod() {
+        return cod;
+    }
+
+    public void setCod(Integer cod) {
+        this.cod = cod;
+    }
 
     //getter and setter dolzhni bitj v ljubom objekte
     public Coord getCoord() {
@@ -30,13 +78,13 @@ public class Response {
         this.coord = coord;
     }
 
-//    public Weather getWeather() {
-//        return weather;
-//    }
-//
-//    public void setWeather(Weather weather) {
-//        this.weather = weather;
-//    }
+    public List<Weather> getWeather() {
+        return weather;
+    }
+
+    public void setWeather(List<Weather> weather) {
+        this.weather = weather;
+    }
 
     public Main getMain() {
         return main;
